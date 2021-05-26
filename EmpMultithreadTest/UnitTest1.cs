@@ -60,7 +60,7 @@ namespace EmpMultithreadTest
             Console.WriteLine("Elapsed time using the threads: " + stopwatch.ElapsedMilliseconds);
         }
 
-        ///  TC3 To test for addition of multiple data to the list using the multi-threading concept with thread synchronization
+        //  TC3 To test for addition of multiple data to the list using the multi-threading concept with thread synchronization
         
         [TestMethod]
         public void AddingMultipleDataWithSynchronizedThreads_GettingTimeOfExecution()
