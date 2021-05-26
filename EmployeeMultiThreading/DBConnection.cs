@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeMultiThreading
 {
-    class Program
+    class DBConnection
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Welcome to Emp Multithreading");
-        }
     }
 }
