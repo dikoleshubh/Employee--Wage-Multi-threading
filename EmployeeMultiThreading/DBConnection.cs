@@ -13,7 +13,7 @@ namespace EmployeeMultiThreading
         {
 
             //Specifying the connection string from the sql server connection
-            string connectionString = @"Data Source=DESKTOP-4849HJR;Initial Catalog=payroll_service;Integrated Security=True;User ID=dheermeena;Password=Dheer@1998";
+            string connectionString = @"Data Source=LAPTOP-NAVJ6800\SQLEXPRESS;Initial Catalog=AddressBook";
             SqlConnection connection = new SqlConnection(connectionString);
             return connection;
         }
