@@ -180,7 +180,7 @@ namespace EmployeeMultiThreading
             });
         }
         
-        ///UC3 Adding Employee To Database
+        ///UC4 Adding Employee To Database
         
         public bool AddEmployeeToDataBase3(EmployeeModel emp)
         { /// Creates a new connection for every method to avoid "ConnectionString property not initialized" exception
