@@ -13,7 +13,7 @@ namespace EmployeeMultiThreading
         {
 
             //Specifying the connection string from the sql server connection
-            string connectionString = @"Data Source=LAPTOP-NAVJ6800\SQLEXPRESS;Initial Catalog=AddressBook";
+            string connectionString = @"Data Source=LAPTOP-NAVJ6800\SQLEXPRESS;Initial Catalog=EmployeePayroll";
             SqlConnection connection = new SqlConnection(connectionString);
             return connection;
         }

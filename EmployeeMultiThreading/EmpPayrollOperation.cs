@@ -112,7 +112,7 @@ namespace EmployeeMultiThreading
                 using (connection)
                 {
                     //Creating a stored Procedure for adding employees into database
-                    SqlCommand command = new SqlCommand("dbo.SpAddEmployeeDetails", connection);
+                    SqlCommand command = new SqlCommand("dbo.Employee_Data", connection);
                     //Command type is set as stored procedure
                     command.CommandType = CommandType.StoredProcedure;
                     //Adding values from employeemodel to stored procedure using disconnected architecture
@@ -151,8 +151,7 @@ namespace EmployeeMultiThreading
         }
 
         ///  UC3 Adding the multiple employees record to data base with synchronised threads allocation from task thread pool.
-        /// </summary>
-        /// <param name="employeeList"></param>
+        
         public void AddEmployeeListToDataBaseWithThreadSynchronization(List<EmployeeModel> employeeList)
         {
             ///For each employeeData present in list new thread is created and all threads run according to the time slot assigned by the thread scheduler.
@@ -191,7 +190,7 @@ namespace EmployeeMultiThreading
                 using (connection)
                 {
                     //Creating a stored Procedure for adding employees into database
-                    SqlCommand command = new SqlCommand("dbo.SpAddEmployeeDetails", connection);
+                    SqlCommand command = new SqlCommand("dbo.Employee_Data", connection);
                     //Command type is set as stored procedure
                     command.CommandType = CommandType.StoredProcedure;
                     //Adding values from employeemodel to stored procedure using disconnected architecture
