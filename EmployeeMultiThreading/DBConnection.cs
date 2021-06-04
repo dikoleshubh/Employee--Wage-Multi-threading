@@ -7,15 +7,11 @@ using System.Threading.Tasks;
 
 namespace EmployeeMultiThreading
 {
-   public class DBConnection
+    public class DBConnection
     {
-        public SqlConnection GetConnection()
+        internal SqlConnection GetConnection()
         {
-
-            //Specifying the connection string from the sql server connection
-            string connectionString = @"Data Source=LAPTOP-NAVJ6800\SQLEXPRESS;Initial Catalog=EmployeePayroll";
-            SqlConnection connection = new SqlConnection(connectionString);
-            return connection;
+            throw new NotImplementedException();
         }
     }
 }
