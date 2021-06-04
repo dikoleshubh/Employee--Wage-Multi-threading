@@ -14,7 +14,7 @@ namespace EmpMultithreadTest
         
          public static EmpPayrollOperation employeePayroll = new EmpPayrollOperation();
 
-        /// TC1 To test for addition of multiple data to the list without using the multi-thread
+        /// TC1 Test for addition of multiple data to the list without using the multi-thread
 
         [TestMethod]
         public void GivenListOfEmployeesMatchTheEntriesWithoutThreading()
