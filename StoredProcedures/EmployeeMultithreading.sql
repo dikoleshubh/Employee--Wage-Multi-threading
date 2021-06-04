@@ -1,5 +1,5 @@
 create procedure dbo.Employee_Data
-	@EmpName	varchar(150),		
+	@EmpName      varchar(150),		
 	@basic_pay float,		
 	@StartDate	date,		
 	@gender	char(1),	
