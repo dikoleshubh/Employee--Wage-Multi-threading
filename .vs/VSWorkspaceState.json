@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\EmployeeMultiThreading",
+    "\\EmpMultithreadTest"
   ],
+  "SelectedNode": "\\EmployeeMultiThreading\\EmpPayrollOperation.cs",
   "PreviewInSolutionExplorer": false
 }
