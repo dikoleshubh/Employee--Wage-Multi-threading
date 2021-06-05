@@ -11,7 +11,11 @@ namespace EmployeeMultiThreading
     {
         internal SqlConnection GetConnection()
         {
-            throw new NotImplementedException();
+
+            //Specifying the connection string from the sql server connection
+            string connectionString = @"Data Source=.;Initial Catalog=AddressBook";
+            SqlConnection connection = new SqlConnection(connectionString);
+            return connection;
         }
     }
 }
